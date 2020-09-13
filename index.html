@@ -48,6 +48,14 @@
     }
 
     async function shareMsg() {
+      await liff.shareTargetPicker([
+           {
+             "type" : "sticker",
+             "stickerId": 52002734,
+             "packageId": 11537
+           
+           }
+           ])
     }
 
     function logOut() {
